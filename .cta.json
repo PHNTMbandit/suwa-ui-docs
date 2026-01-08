@@ -1,5 +1,5 @@
 {
-	"projectName": "strata-ui-docs",
+	"projectName": "suwa-ui-docs",
 	"mode": "file-router",
 	"typescript": true,
 	"tailwind": true,
