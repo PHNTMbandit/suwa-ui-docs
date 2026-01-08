@@ -6,7 +6,6 @@ import {
 	Scripts,
 } from "@tanstack/react-router"
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools"
-import { ThemeProvider } from "suwa-ui"
 import appCss from "../styles.css?url"
 
 export const Route = createRootRouteWithContext<{
@@ -42,7 +41,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 				<HeadContent />
 			</head>
 			<body>
-				<ThemeProvider>{children}</ThemeProvider>
+				{children}
 				<TanStackDevtools
 					config={{
 						position: "bottom-right",
